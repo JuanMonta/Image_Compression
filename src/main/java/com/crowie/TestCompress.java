@@ -8,7 +8,6 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.imageio.ImageIO;
 import javax.swing.ImageIcon;
-import javax.swing.SwingUtilities;
 import jnafilechooser.api.JnaFileChooser;
 
 public class TestCompress extends javax.swing.JFrame {
