@@ -371,7 +371,7 @@ public class TestCompress extends javax.swing.JFrame {
         }
         System.out.println("Comprimiendo al "+(this.compressionValue*100)+"% ...");
         
-        String compressedImagePath = new ImageCompressionRestaurant()
+        String compressedImagePath = new ImageCompression()
                 .compressImage(this.originalImagePath, 
                         this.compressionValue,
                         this.cb_TipoImagen.getSelectedItem().toString().toLowerCase().trim(),

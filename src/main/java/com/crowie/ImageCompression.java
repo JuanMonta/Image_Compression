@@ -6,7 +6,7 @@ import java.awt.image.BufferedImage;
 import java.io.*;
 import javax.swing.SwingWorker;
 
-public class ImageCompressionRestaurant extends SwingWorker<Object, Object> {
+public class ImageCompression extends SwingWorker<Object, Object> {
 
     /**
      *
