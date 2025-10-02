@@ -1,0 +1,29 @@
+//Aquí se muestra como instalar archivos .jar como una librería de Maven en tu sistema.
+// -DgrougId, -DartifactId, -Dversion, son datos que tú colocas, así que sé coherente con los nombres para poder ubicarlos, entenderlos y no perderlos.
+											 		
+mvn install:install-file -Dfile=Directorio\donde\seEncuentra\elArchivo\Jar\jna-5.5.0.jar  -DgroupId=jna-file-chooser-like-windows -DartifactId=jna -Dversion=5.5.0 -Dpackaging=jar 
+
+// Resultado después de instalar el .jar, estructura para pegar en Maven.
+<dependencies>    
+    <dependency>
+        <groupId>jna-file-chooser-like-windows</groupId>
+        <artifactId>jna</artifactId>
+        <version>5.5.0</version>
+    </dependency>    
+</dependencies>
+
+
+mvn install:install-file -Dfile=Directorio\donde\seEncuentra\elArchivo\Jar\swing-jnafilechooser.jar  -DgroupId=jna-file-chooser-like-windows -DartifactId=swing-jnafilechooser -Dversion=1.0 -Dpackaging=jar 
+
+// Resultado después de instalar el .jar, estructura para pegar en Maven.
+<dependencies>    
+    <dependency>
+        <groupId>jna-file-chooser-like-windows</groupId>
+        <artifactId>swing-jnafilechooser</artifactId>
+        <version>1.0</version>
+    </dependency>    
+</dependencies>
+
+
+
+
