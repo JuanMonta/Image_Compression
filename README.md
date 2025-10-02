@@ -56,5 +56,6 @@ Mostrando mediante la interface la compresión de una imagen.
 
 -   Java Swing (para la GUI).
 -   [JnaFileChooser](https://github.com/MatthiasMielke/JnaFileChooser) (para el selector de archivos nativo).
+-   [JnaFileChooser .jar tambien aquí](https://github.com/JuanMonta/Image_Compression/tree/main/src/main/java/libs/) (para descargar e instalar). Dentro contiene un archivo .txt con explicaciones de cómo instalar las librerias para maven.
 -   Las dependencias son gestionadas a través de Maven. Consulte el archivo `pom.xml` para más detalles.
 
